@@ -1,0 +1,31 @@
+
+public class piscina {
+
+	
+	public static void main(String[] args) {
+		int diametro = 6;
+		int custo = 75;
+		
+		System.out.println("o valor do raio e:" + raio(diametro));
+		System.out.println("o valor da area do projeto e : " + areaProjeto(diametro));
+		System.out.println("o valor  total e de :" + total(diametro));
+		
+	}
+
+	
+	public static int raio (int diametro) {
+		int valorRaio = diametro /2;
+		return valorRaio;	
+	}
+	
+	public static double areaProjeto(int diametro) {
+		double ap = Math.PI * Math.pow(raio(diametro),2);
+		return ap;
+	}
+	
+	public static double total(int diametro) {
+		double valorTotal = areaProjeto(diametro) * 75;
+		return valorTotal;
+	}
+	
+}

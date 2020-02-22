@@ -1,0 +1,17 @@
+
+public class RevisaoMetodos {
+	public static void main(String[] args) {
+		int num = 2 ;
+		System.out.println("o proximo numero e "+ proximo(2));
+		
+	}
+	
+	public static int  proximo(int num) {
+		
+		return num +1;
+//		System.out.println("o proximo numero e "+ proximo);
+		
+		
+	}
+
+}

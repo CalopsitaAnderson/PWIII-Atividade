@@ -1,0 +1,18 @@
+
+public class CalculadoraConstrucao {
+	
+	public static void main(String[] args) {
+		int diametro = 6;
+		int custo = 75;
+		int larguraTerreno =20;
+		int comprimentoTerreno = 20;
+		double porcentagemConstruida = 50;
+		int custoCasa = 60;
+		double custoTotalCasa = Casa.valorTotalCasa( Casa.comprimentoTerreno, porcentagemConstruida, custoCasa);
+		double custoPiscina = piscina.total(diametro);
+		double total = custoCasa + custoPiscina;
+		
+		System.out.println("custo da casa :" + String.format("R$%.2f"  ,custoCasa));
+	}
+
+}

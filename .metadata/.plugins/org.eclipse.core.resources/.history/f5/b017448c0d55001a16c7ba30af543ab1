@@ -1,0 +1,13 @@
+
+public class CalculadoraConstrucao {
+	
+	public static void main(String[] args) {
+		int diametro = 6;
+		int custo = 75;
+		int larguraTerreno =20;
+		int comprimentoTerreno = 20;
+		double porcentagemConstruida = 50;
+		double custoCasa = Casa.valorTotalCasa(larguraTerreno , comprimentoTerreno , porcentagemConstruida , custoCasa );
+	}
+
+}

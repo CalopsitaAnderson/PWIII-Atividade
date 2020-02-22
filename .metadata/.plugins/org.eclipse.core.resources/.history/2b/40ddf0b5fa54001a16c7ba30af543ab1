@@ -1,0 +1,16 @@
+
+public class RevisaoMetodos {
+	public static void main(String[] args) {
+		int num = 2 ;
+		
+	}
+	
+	public static void proximo(2) {
+		
+		return total = num +1;
+//		System.out.println("o proximo numero e "+  total);
+		
+		
+	}
+
+}

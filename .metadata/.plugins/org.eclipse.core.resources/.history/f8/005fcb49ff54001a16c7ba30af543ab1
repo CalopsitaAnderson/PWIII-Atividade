@@ -1,0 +1,25 @@
+
+public class RevisaoMetodos {
+	public static void main(String[] args) {
+		int num = 2 ;
+		
+		System.out.println("o proximo numero e "+ proximo(2));
+		System.out.println("o dobro do proximo numero e :" + dobroProximo(2));
+		
+	}
+	
+	public static int  proximo(int num) {
+		int resultado  = num +1;
+		return resultado;
+//		System.out.println("o proximo numero e "+ proximo);
+		
+		
+	}
+	
+	public static int dobroProximo(int num) {
+	/*return  (num + 1) * 2;*/
+		return proximo(num) * 2;
+	}
+	
+
+}
